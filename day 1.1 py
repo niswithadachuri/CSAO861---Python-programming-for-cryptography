@@ -1,0 +1,12 @@
+def nishu(x,y):
+    if len(x)!=len(y):
+        return False
+    for i in range(len(x)):
+        count=0
+        if x.count(x[i])!=y.count(y[i]):
+            return False
+    return True
+print(nishu("fool","poor"))
+print(nishu("foal","poor"))
+print(nishu("too","bar"))
+print(nishu("toto","yaya"))
