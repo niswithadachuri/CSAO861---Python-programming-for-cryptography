@@ -1,0 +1,7 @@
+index = 0
+# iterate over string
+while index &lt; len(str):
+    # print character at index
+    print(str[index], end='')
+    # increment index by 2
+    index = index + 2
